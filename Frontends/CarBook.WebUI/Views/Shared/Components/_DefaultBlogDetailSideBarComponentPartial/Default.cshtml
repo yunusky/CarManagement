@@ -1,0 +1,17 @@
+﻿<div class="col-md-4 sidebar ftco-animate">
+    <div class="sidebar-box">
+        <form action="#" class="search-form">
+            <div class="form-group">
+                <span class="icon icon-search"></span>
+                <input type="text" class="form-control" placeholder="Aranacak kelimeyi girin">
+            </div>
+        </form>
+    </div>
+    @await Component.InvokeAsync("_DefaultBlogDetailSideBarCategoriesComponentPartial")
+    @await Component.InvokeAsync("_DefaultBlogDetailSideBarRecentBlogComponentPartial")
+    @await Component.InvokeAsync("_DefaultBlogDetailSideBarTagCloudComponentPartial")
+    <div class="sidebar-box ftco-animate">
+        <h3>Açıklama</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus itaque, autem necessitatibus voluptate quod mollitia delectus aut, sunt placeat nam vero culpa sapiente consectetur similique, inventore eos fugit cupiditate numquam!</p>
+    </div>
+</div>
